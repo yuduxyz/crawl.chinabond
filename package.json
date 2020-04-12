@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build-server": "tslint --project . && tsc",
+    "watch-server": "cross-env NODE_ENV=development nodemon --watch src/**/* -e ts,tsx --exec ts-node ./src/server/server.ts"
+  },
+  "dependencies": {
+    "@types/archiver": "^3.1.0",
+    "@types/koa": "^2.11.3",
+    "@types/koa-router": "^7.4.0",
+    "archiver": "^3.1.1",
+    "axios": "^0.19.2",
+    "cross-env": "^7.0.2",
+    "dayjs": "^1.8.24",
+    "del": "^5.1.0",
+    "js-file-download": "^0.4.8",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.8.2",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
+}
