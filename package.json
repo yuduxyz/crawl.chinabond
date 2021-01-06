@@ -8,7 +8,7 @@
     "@types/koa": "^2.11.3",
     "@types/koa-router": "^7.4.0",
     "archiver": "^3.1.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cross-env": "^7.0.2",
     "dayjs": "^1.8.24",
     "del": "^5.1.0",
